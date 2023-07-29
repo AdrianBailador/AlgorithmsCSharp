@@ -1,7 +1,5 @@
 # Algorithms in C#
 
-![C# Logo](https://upload.wikimedia.org/wikipedia/commons/7/7a/C_Sharp_logo.svg)
-
 ## Repository Description
 
 Welcome to the Algorithms in C# repository! In this project, you will find implementations of various popular algorithms written in C#. The goal of this repository is to provide examples of common algorithms and serve as a reference for students and developers looking to learn and improve their C# and algorithmic skills.
