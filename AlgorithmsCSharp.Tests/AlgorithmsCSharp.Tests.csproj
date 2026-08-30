@@ -30,6 +30,7 @@
     <ProjectReference Include="..\Stack\Stack.csproj" />
     <ProjectReference Include="..\Queue\Queue.csproj" />
     <ProjectReference Include="..\GraphTraversal\GraphTraversal.csproj" />
+    <ProjectReference Include="..\DynamicProgramming\DynamicProgramming.csproj" />
   </ItemGroup>
 
 </Project>

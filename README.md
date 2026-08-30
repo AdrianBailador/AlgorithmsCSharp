@@ -58,9 +58,11 @@ Below is a list of the algorithms implemented in this repository:
 
 24. **GraphTraversal:** Breadth-First Search (BFS) and Depth-First Search (DFS) over a graph represented as an adjacency list.
 
+25. **DynamicProgramming:** Fibonacci with memoization and the 0/1 Knapsack problem solved with bottom-up dynamic programming.
+
 ## Running the Tests
 
-The `AlgorithmsCSharp.Tests` project covers sorting, binary search, primality checking, symmetry checking, digit and number reversal, factorial calculation, the linked list, stack, queue, and graph traversal (BFS/DFS). Run it with:
+The `AlgorithmsCSharp.Tests` project covers sorting, binary search, primality checking, symmetry checking, digit and number reversal, factorial calculation, the linked list, stack, queue, graph traversal (BFS/DFS), and dynamic programming (memoized Fibonacci, 0/1 Knapsack). Run it with:
 
 ```bash
 dotnet test "AlgorithmsC#.sln"
