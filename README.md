@@ -8,7 +8,7 @@ Welcome to the Algorithms in C# repository! In this project, you will find imple
 
 Below is a list of the algorithms implemented in this repository:
 
-1. **Bubble Sort:** A simple sorting algorithm that works by repeatedly stepping through the list to be sorted, comparing each pair of adjacent items and swapping them if they are in the wrong order. (This project also includes Selection Sort alongside Bubble Sort and Insertion Sort.)
+1. **Bubble Sort:** A simple sorting algorithm that works by repeatedly stepping through the list to be sorted, comparing each pair of adjacent items and swapping them if they are in the wrong order. (This project also includes Selection Sort, Merge Sort and Quick Sort alongside Bubble Sort and Insertion Sort.)
 
 2. **Insertion Sort:** An efficient sorting algorithm that builds a sorted list one item at a time, moving the unsorted elements to their correct position in the sorted list.
 
@@ -43,3 +43,7 @@ Below is a list of the algorithms implemented in this repository:
 17. **ReverseNumberB:** A function that reverses an integer by converting it to a string and manipulating its characters.
 
 18. **StringBenchmark:** An example of how to benchmark the performance of different string operations in C#.
+
+19. **Merge Sort:** A divide-and-conquer sorting algorithm that recursively splits the list in half, sorts each half, and merges the results.
+
+20. **Quick Sort:** A divide-and-conquer sorting algorithm that partitions the list around a pivot and recursively sorts the partitions.
