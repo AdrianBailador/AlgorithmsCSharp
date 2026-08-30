@@ -8,7 +8,7 @@ Welcome to the Algorithms in C# repository! In this project, you will find imple
 
 Below is a list of the algorithms implemented in this repository:
 
-1. **Bubble Sort:** A simple sorting algorithm that works by repeatedly stepping through the list to be sorted, comparing each pair of adjacent items and swapping them if they are in the wrong order.
+1. **Bubble Sort:** A simple sorting algorithm that works by repeatedly stepping through the list to be sorted, comparing each pair of adjacent items and swapping them if they are in the wrong order. (This project also includes Selection Sort alongside Bubble Sort and Insertion Sort.)
 
 2. **Insertion Sort:** An efficient sorting algorithm that builds a sorted list one item at a time, moving the unsorted elements to their correct position in the sorted list.
 
