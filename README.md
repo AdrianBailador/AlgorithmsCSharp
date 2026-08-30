@@ -6,6 +6,8 @@
 
 Welcome to the Algorithms in C# repository! In this project, you will find implementations of various popular algorithms written in C#. The goal of this repository is to provide examples of common algorithms and serve as a reference for students and developers looking to learn and improve their C# and algorithmic skills.
 
+Each project folder has its own `README.md` with a short description and its time/space complexity.
+
 ## List of Algorithms
 
 Below is a list of the algorithms implemented in this repository:
