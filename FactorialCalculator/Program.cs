@@ -1,31 +1,34 @@
-﻿using System;
+using System;
 
-class Program
+namespace FactorialCalculatorAlgorithm
 {
-    static void Main()
+    public class Program
     {
-        Console.Write("Enter a number: ");
-        int num = Convert.ToInt32(Console.ReadLine());
-
-        Console.WriteLine("Factorial of " + num + " (iterative): " + FactorialIterative(num));
-        Console.WriteLine("Factorial of " + num + " (recursive): " + FactorialRecursive(num));
-    }
-
-    // Iterative approach
-    static long FactorialIterative(int num)
-    {
-        long result = 1;
-        for (int i = 1; i <= num; i++)
+        static void Main()
         {
-            result *= i;
-        }
-        return result;
-    }
+            Console.Write("Enter a number: ");
+            int num = Convert.ToInt32(Console.ReadLine());
 
-    // Recursive approach
-    static long FactorialRecursive(int num)
-    {
-        if (num == 0) return 1;
-        return num * FactorialRecursive(num - 1);
+            Console.WriteLine("Factorial of " + num + " (iterative): " + FactorialIterative(num));
+            Console.WriteLine("Factorial of " + num + " (recursive): " + FactorialRecursive(num));
+        }
+
+        // Iterative approach
+        public static long FactorialIterative(int num)
+        {
+            long result = 1;
+            for (int i = 1; i <= num; i++)
+            {
+                result *= i;
+            }
+            return result;
+        }
+
+        // Recursive approach
+        public static long FactorialRecursive(int num)
+        {
+            if (num == 0) return 1;
+            return num * FactorialRecursive(num - 1);
+        }
     }
 }

@@ -1,24 +1,27 @@
-﻿using System;
+using System;
 
-public class Program
+namespace GetMaxAlgorithm
 {
-    public static void Main()
+    public class Program
     {
-        int num = 376543245;
-        int maxDigit = FindMaxDigit(num);
-        Console.WriteLine(maxDigit);
-    }
-
-    private static int FindMaxDigit(int num)
-    {
-        num = Math.Abs(num);
-        int maxDigit = 0;
-        while (num > 0)
+        public static void Main()
         {
-            int currentDigit = num % 10;
-            num /= 10;
-            if (currentDigit > maxDigit) maxDigit = currentDigit;
+            int num = 376543245;
+            int maxDigit = FindMaxDigit(num);
+            Console.WriteLine(maxDigit);
         }
-        return maxDigit;
+
+        public static int FindMaxDigit(int num)
+        {
+            num = Math.Abs(num);
+            int maxDigit = 0;
+            while (num > 0)
+            {
+                int currentDigit = num % 10;
+                num /= 10;
+                if (currentDigit > maxDigit) maxDigit = currentDigit;
+            }
+            return maxDigit;
+        }
     }
 }

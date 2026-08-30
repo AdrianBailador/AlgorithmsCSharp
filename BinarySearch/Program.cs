@@ -2,7 +2,7 @@
 
 namespace BinarySearchAlgorithm
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -17,7 +17,7 @@ namespace BinarySearchAlgorithm
                 Console.WriteLine("Element found at index " + result);
         }
 
-        static int BinarySearch(int[] arr, int l, int r, int x)
+        public static int BinarySearch(int[] arr, int l, int r, int x)
         {
             if (r >= l)
             {

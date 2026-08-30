@@ -1,22 +1,25 @@
-﻿using System;
+using System;
 
-public class Program
+namespace ReverseNumberBAlgorithm
 {
-    public static void Main()
+    public class Program
     {
-        int num = 757757574;
-        int reversedNumber = ReverseNumber(num);
-        Console.WriteLine(reversedNumber);
-    }
-
-    static int ReverseNumber(int num)
-    {
-        int reversed = 0;
-        while (num > 0)
+        public static void Main()
         {
-            reversed = reversed * 10 + num % 10;
-            num /= 10;
+            int num = 757757574;
+            int reversedNumber = ReverseNumber(num);
+            Console.WriteLine(reversedNumber);
         }
-        return reversed;
+
+        public static int ReverseNumber(int num)
+        {
+            int reversed = 0;
+            while (num > 0)
+            {
+                reversed = reversed * 10 + num % 10;
+                num /= 10;
+            }
+            return reversed;
+        }
     }
 }

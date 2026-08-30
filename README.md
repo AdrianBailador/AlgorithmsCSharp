@@ -1,5 +1,7 @@
 # Algorithms in C#
 
+![Build and Test](https://github.com/AdrianBailador/AlgorithmsCSharp/actions/workflows/build.yml/badge.svg)
+
 ## Repository Description
 
 Welcome to the Algorithms in C# repository! In this project, you will find implementations of various popular algorithms written in C#. The goal of this repository is to provide examples of common algorithms and serve as a reference for students and developers looking to learn and improve their C# and algorithmic skills.
@@ -47,3 +49,15 @@ Below is a list of the algorithms implemented in this repository:
 19. **Merge Sort:** A divide-and-conquer sorting algorithm that recursively splits the list in half, sorts each half, and merges the results.
 
 20. **Quick Sort:** A divide-and-conquer sorting algorithm that partitions the list around a pivot and recursively sorts the partitions.
+
+## Running the Tests
+
+The `AlgorithmsCSharp.Tests` project covers sorting, binary search, primality checking, symmetry checking, digit and number reversal, and factorial calculation. Run it with:
+
+```bash
+dotnet test "AlgorithmsC#.sln"
+```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
