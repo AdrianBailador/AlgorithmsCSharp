@@ -11,6 +11,7 @@ public class Program
 
     private static int FindMaxDigit(int num)
     {
+        num = Math.Abs(num);
         int maxDigit = 0;
         while (num > 0)
         {
