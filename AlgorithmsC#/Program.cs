@@ -37,25 +37,17 @@ public class Program
 
     private static (int, int) FindOne(int[] array)
     {
-        int left = 0;
-        int right = array.Length - 1;
+        // Binary search needs a sorted array, but only one random position holds a 1
+        // amid a sea of 0s, so the array isn't ordered. A linear scan is the correct
+        // approach here.
         int attempts = 0;
 
-        while (left <= right)
+        for (int i = 0; i < array.Length; i++)
         {
             attempts++;
-            int mid = left + (right - left) / 2;
-            if (array[mid] == 1)
+            if (array[i] == 1)
             {
-                return (mid, attempts);
-            }
-            if (array[mid] < 1)
-            {
-                left = mid + 1;
-            }
-            else
-            {
-                right = mid - 1;
+                return (i, attempts);
             }
         }
 
