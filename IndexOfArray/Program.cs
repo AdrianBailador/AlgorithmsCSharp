@@ -54,7 +54,7 @@ public class Program
                 return (i, attempts);
             }
         }
-        for (int i = count / 2 - 1; i > 0; i--)
+        for (int i = count / 2 - 1; i >= 0; i--)
         {
             attempts++;
             if (array[i] == targetValue)
