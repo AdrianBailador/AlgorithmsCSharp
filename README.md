@@ -50,9 +50,17 @@ Below is a list of the algorithms implemented in this repository:
 
 20. **Quick Sort:** A divide-and-conquer sorting algorithm that partitions the list around a pivot and recursively sorts the partitions.
 
+21. **LinkedList:** A singly linked list implementation supporting append, remove and lookup.
+
+22. **Stack:** A LIFO (last-in, first-out) stack implementation backed by a resizable array.
+
+23. **Queue:** A FIFO (first-in, first-out) queue implementation backed by a linked list.
+
+24. **GraphTraversal:** Breadth-First Search (BFS) and Depth-First Search (DFS) over a graph represented as an adjacency list.
+
 ## Running the Tests
 
-The `AlgorithmsCSharp.Tests` project covers sorting, binary search, primality checking, symmetry checking, digit and number reversal, and factorial calculation. Run it with:
+The `AlgorithmsCSharp.Tests` project covers sorting, binary search, primality checking, symmetry checking, digit and number reversal, factorial calculation, the linked list, stack, queue, and graph traversal (BFS/DFS). Run it with:
 
 ```bash
 dotnet test "AlgorithmsC#.sln"

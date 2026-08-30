@@ -26,6 +26,10 @@
     <ProjectReference Include="..\GetMax\GetMax.csproj" />
     <ProjectReference Include="..\ReverseNumberB\ReverseNumberB.csproj" />
     <ProjectReference Include="..\FactorialCalculator\FactorialCalculator.csproj" />
+    <ProjectReference Include="..\LinkedList\LinkedList.csproj" />
+    <ProjectReference Include="..\Stack\Stack.csproj" />
+    <ProjectReference Include="..\Queue\Queue.csproj" />
+    <ProjectReference Include="..\GraphTraversal\GraphTraversal.csproj" />
   </ItemGroup>
 
 </Project>
